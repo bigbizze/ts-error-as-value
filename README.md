@@ -16,11 +16,15 @@ To further decrease friction for using this in your project, you can also import
 ```bash
 yarn install ts-error-as-value
 ```
+or
+```bash
+pnpm install ts-error-as-value
+```
 ---
 
 ### (Optionally) Make functions and types global
 ```ts
-import "ts-error-as-value/lib/globals";
+import "ts-error-as-value/globals";
 ```
 This will make the functions ok, err and withResult, as well as the types Success, Failure and Result globally available
 

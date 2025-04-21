@@ -1,3 +1,5 @@
+export { partitionResults } from "./partition-results";
+
 export { withResult } from "./with-result";
 
 
@@ -72,9 +74,3 @@ export function ok<T = void>(
     }
   };
 }
-
-export const ResultIs = {
-  success: ok,
-  failure: err
-};
-

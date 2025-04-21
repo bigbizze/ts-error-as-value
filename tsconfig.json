@@ -28,7 +28,7 @@
       "./types",
       "./node_modules/@types"
     ],
-    "outDir": "./"
+    "outDir": "./lib/"
   },
   "compileOnSave": false,
   "include": [

@@ -1,0 +1,17 @@
+# Ignore everything by default
+*
+
+# Allow specific files in root
+!package.json
+!README.md
+!LICENSE
+
+# Allow dist directory and its JS files
+!lib/
+lib/*
+!lib/*.js
+!lib/*.d.ts
+
+# Explicitly ignore these directories
+node_modules/
+src/

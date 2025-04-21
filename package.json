@@ -1,12 +1,12 @@
 {
   "name": "ts-err-as-value",
-  "version": "0.0.91",
+  "version": "0.0.92",
   "description": "Errors as values in typescript",
   "main": "./lib/index.js",
   "keywords": ["result", "option", "rust", "kotlin", "errors", "errors as values", "typescript"],
   "types": "./lib/index.d.ts",
   "scripts": {
-    "preinstall": "npx only-allow pnpm && npx rimraf lib",
+    "preinstall": "npx only-allow pnpm",
     "start": "node --require ts-node/register --require @babel/register src/types-scratch-board.ts",
     "test": "jest",
     "clean": "rm -rf lib",

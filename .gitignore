@@ -1,4 +1,5 @@
 # Project exclude paths
 /node_modules/
 .env
+lib
 /src/types-scratch-board.ts

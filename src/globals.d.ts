@@ -1,16 +1,10 @@
 
 type Success<T> = import(".").Success<T>;
-type Failure<E extends Error> = import(".").Failure<any extends infer u ? u : never, E>;
+type Failure<T extends any, E extends Error> = import(".").Failure<T, E>;
 type Result<T = void, E extends Error = Error> = import(".").Result<T, E>;
 
 declare function ok<T = void>(data?: T): Success<T>;
 declare function err<E extends Error>(error: E): Failure<E>;
-
-// For backwards compatibility
-declare class ResultIs {
-  static success: <T = void>(data?: T) => Success<T>;
-  static failure: <E extends Error>(failure: E) => Failure<E>;
-}
 
 /**
  * @desc Function which wraps another function and returns a new function that has the same argument types as the wrapped function.

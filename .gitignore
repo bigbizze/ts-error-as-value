@@ -1,6 +1,14 @@
 # Project exclude paths
 /node_modules/
 .env
-/lib/
-/dist/
 /src/types-scratch-board.ts
+globals.d.ts
+globals.js
+index.d.ts
+index.js
+partition-results.d.ts
+partition-results.js
+utils.d.ts
+utils.js
+with-result-d-ts
+with-result.js

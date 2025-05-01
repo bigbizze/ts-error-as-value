@@ -26,7 +26,7 @@ pnpm install ts-err-as-value
 ```ts
 import "ts-err-as-value/globals";
 ```
-This will make the functions ok, err and withResult, as well as the types Success, Failure and Result globally available
+This will make the functions ok, err and withResult, partitionResults, as well as the types Success, Failure and Result globally available
 
 ---
 
